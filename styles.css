@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    background-image: url("photo6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    background-color: #856969;
+    /* background-image: url("photo7.jpg"); */
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url("photo5.avif");
+    padding: 30px;
+    height: 70%;
+    width: 40%;
+    /* max-width: 1000px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px bold #0d0c0c;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+button {
+    background-color: #0074d9;
+    margin-top: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#task, #start-time {
+    font-weight: bold;
+}
+
+label[for="task"], label[for="start-time"] {
+    font-weight: bold;
+    color: #000000;
+    
+}
+
